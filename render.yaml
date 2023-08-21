@@ -1,7 +1,7 @@
 databases:
   - name: mysite
     databaseName: "corp_my"
-    username: 'postgres'
+    user: mysite
 
 services:
   - type: web
