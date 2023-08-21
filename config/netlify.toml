@@ -1,0 +1,6 @@
+[build]
+command = "ruby your_startup_script.rb"
+publish = "path/to/public_or_output_folder"
+[build]
+command = "bundle exec rails server -p $PORT"
+publish = "public"
